@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+input[type=text], input[type=password],select[name=name] {
+  width: 150%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150%;
+}
+a{
+text-decoration:none;
+}
+h2
+{
+width: 107%;
+  padding: 8px 5px;
+  
+}
+button:hover {
+  opacity: 0.8;
+}
+</style>
+<body>
+<form action="ulogin.jsp" method="post">
+<center>
+<h2><strong style="color:red;">LOGIN</strong></h2>
+<table>
+<tr><td><strong>USERNAME</strong></td></tr>
+<tr><td><input type="text" name="uname"></td></tr>
+    	<tr><td><strong>PASSWORD</strong></td></tr>
+    	<tr><td><input type="password" name="pwd"></td></tr>
+    	<tr><td colspan="2"><center><button type="submit">Submit</button></center></td></tr>
+    	
+</table>
+    	<center><a href="forgot.html">Forgot Password?</a></center>
+
+ </center>   
+     	
+
+</form>
+</body>
+</html>

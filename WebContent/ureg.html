@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+input[type=text], input[type=password],select[name=name] {
+  width: 150%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+form {border: 3px solid #f1f1f1;}
+
+
+h2
+{
+width: 107%;
+  padding: 8px 5px;
+  
+}
+
+</style>
+<body>
+<form action="userregister.jsp" method="post" >
+<center>
+<h2><strong style="color:red;">SIGN UP</strong></h2>
+<table>
+<tr><td><strong>NAME</strong></td><td></td></tr>
+<tr><td><input type="text" name="name" required></td></tr>
+<tr><td><strong>USERNAME</strong></td></td></tr>
+<tr><td><input type="text" name="uname" required ></td></tr>
+<tr><td><strong>PASSWORD</strong></td><td></td></tr>
+<tr><td><input type="password" name="pwd"  ></td></tr>
+<tr><td><strong>RENTER</strong></td><td></td></tr>
+<tr><td><input type="password" name="repwd"  ></td></tr>
+<tr><td><strong>PLACE</strong></td><td></td></tr>
+<tr><td><input type="text" name="place" ></td></tr>
+<tr><td><strong>E-MAIL</strong></td><td></td></tr>
+<tr><td><input type="text" name="mail" ></td></tr>
+<tr><td><strong>PHONE NUMBER</strong></td><td></td></tr>
+<tr><td><input type="text" name="phn" ></td></tr>
+<tr><td><strong>SLECT ANY ONE QUIESTION</strong></td><td></td></tr>
+<tr><td><select style="width:150%; padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+" name="question"><option value="whats your date of birth?"><h2>whats your date of birth?</h2></option><option value="whats your pet name?">whats your pet name?</option><option value="Whats your bestfriend name">Whats your bestfriend name</option><option value="What was your childhood nickname?
+">What was your nickname?</option><option value="what is your home town name?">what is your home town name?</option></h2></select></td></tr>
+<tr><td><strong>ANSWER</strong></td><td></td></tr>
+<tr><td><input type="text" name="ans" ></td></tr>
+<tr><td><center>    <button type="submit">Login</button><br>    <button type="reset">Reset</button>
+
+</center></td></tr>
+</table>
+</center>
+</form>
+</body>
+</html>
+
